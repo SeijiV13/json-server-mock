@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3200; // <== You can change the port
 
 server.use(middlewares);
-server.use(router);
 server.use(auth)
+server.use(router);
 
 server.listen(port);

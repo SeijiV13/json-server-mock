@@ -1,75 +1,67 @@
 {
     "users": [
+     
+    ],
+    "blogs": [
       {
         "id": 1,
-        "first_name": "Justina",
-        "last_name": "Ginglell",
-        "email": "jginglell0@networkadvertising.org",
-        "gender": "Female"
+        "title": "How to make an apple juice",
+        "description": "making an apple juice using a blender",
+        "author": "Apple Juice Maker",
+        "comments": [
+          "Good work!!!",
+          "Its so easy to do",
+          "Wow!"
+        ]
       },
       {
         "id": 2,
-        "first_name": "Marion",
-        "last_name": "Jenman",
-        "email": "mjenman1@surveymonkey.com",
-        "gender": "Male"
+        "title": "A day in a life of a software engineer",
+        "description": "Watch a day in my life as a software engineer at Microsoft’s headquarters near Seattle. While I am based in Silicon Valley, I sometimes travel to the Redmond headquarters in person, and I hope you enjoy a sneak peak into all the cool stuff at the Redmond Campus. ",
+        "author": "Justin Hammond",
+        "comments": [
+          "Commutes over Lake Washington are everything! I live for the scenery! Great vlog!",
+          "True life of every software engineer ",
+          "Loving the vlog man keep it up!!"
+        ]
       },
       {
         "id": 3,
-        "first_name": "Alfy",
-        "last_name": "Begin",
-        "email": "abegin2@list-manage.com",
-        "gender": "Female"
+        "title": "Learn How To Build A Website In 1 Hour!",
+        "description": "Building a website can be hard, so in this video I will walk you through building a full website in one hour. This website is based on a product that is a spin off of Spotify. The design was created by Dev Ed, and he has his own video on how to design the site linked below.",
+        "author": "Web Dev Simplified",
+        "comments": [
+          "All I have to say is: everything I had to know you showed in this video... The foundation, the basic which are so important. Thank you so much",
+          "Beautiful. Between the two of you, I learned a lot. Can't wait to put it into practice.",
+          "This is just a Next Level Tutorial ! Love it! You have skills for teaching :)"
+        ]
+      }
+    ],
+    "books": [
+      {
+        "id": 1,
+        "name": "Celestial ",
+        "isbn": "4628952319",
+        "authors": [
+          "Jokha Alharthi",
+          null
+        ]
       },
       {
-        "id": 4,
-        "first_name": "Karney",
-        "last_name": "Zanussii",
-        "email": "kzanussii3@hao123.com",
-        "gender": "Male"
+        "id": 2,
+        "name": "Cheque book",
+        "authors": [
+          "Vasdev Mohi"
+        ],
+        "isbn": "6435243513"
       },
       {
-        "id": 5,
-        "first_name": "Reid",
-        "last_name": "Schapero",
-        "email": "rschapero4@timesonline.co.uk",
-        "gender": "Male"
-      },
-      {
-        "id": 6,
-        "first_name": "Dorine",
-        "last_name": "Braybrookes",
-        "email": "dbraybrookes5@gov.uk",
-        "gender": "Female"
-      },
-      {
-        "id": 7,
-        "first_name": "Sarena",
-        "last_name": "Frape",
-        "email": "sfrape6@alexa.com",
-        "gender": "Female"
-      },
-      {
-        "id": 8,
-        "first_name": "Malva",
-        "last_name": "Pierse",
-        "email": "mpierse7@usda.gov",
-        "gender": "Female"
-      },
-      {
-        "id": 9,
-        "first_name": "Rania",
-        "last_name": "Dablin",
-        "email": "rdablin8@state.gov",
-        "gender": "Female"
-      },
-      {
-        "id": 10,
-        "first_name": "Ingrim",
-        "last_name": "Offen",
-        "email": "ioffen9@slideshare.net",
-        "gender": "Male"
+        "id": 3,
+        "name": "The Overstory",
+        "authors": [
+          "Richard Powers"
+        ],
+        "isbn": "1254521235"
       }
     ]
   }
-  
